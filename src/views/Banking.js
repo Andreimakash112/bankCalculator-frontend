@@ -6,8 +6,7 @@ function Banking() {
     <div className="Banking">
       
     <Product />
-    <Product />
-    <Product />
+   
    
     </div>
   );
