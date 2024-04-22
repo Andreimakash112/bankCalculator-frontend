@@ -1,0 +1,82 @@
+
+
+.Admin {
+    width: 100%;
+    min-height: calc(100vh - 50px - 50px);
+    background-color: #d5f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+
+.Admin h1 {
+    margin-bottom: 20px;
+}
+
+.Admin input {
+    width: 25%;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.Admin p {
+    margin-bottom: 10px;
+}
+
+.Admin button {
+    width: 45%;
+    height: 50px;
+    cursor: pointer;
+    background-color: #aad7ff;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
+.Admin button:hover {
+    background-color: #51aaef;
+}
+
+.Admin hr {
+	margin: 20px 0;
+	padding: 0px;
+	height: 10px;
+	border: none;
+	border-top: 5px solid ;
+}
+@media (max-width: 610px) {
+    .Admin input {
+        width: 180px;
+        height: 40px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    .Admin button {
+        width: 180px;
+        height: 40px;
+        cursor: pointer;
+        background-color: #aad7ff;
+        border-radius: 10px;
+        border: none;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 420px) {
+    .Admin input {
+        width: 180px;
+        height: 40px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    .Admin button {
+        width: 180px;
+        height: 40px;
+        cursor: pointer;
+        background-color: #aad7ff;
+        border-radius: 10px;
+        border: none;
+        margin-top: 20px;
+    }
+}
