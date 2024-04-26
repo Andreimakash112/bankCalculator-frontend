@@ -1,0 +1,68 @@
+.Report {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .Report table {
+    width: 100%;
+    border: 2px solid #150202;
+  }
+  
+  
+  .Report td {
+    border: 2px solid #150202;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .Report th {
+    background-color: #f2f2f2;
+  }
+  
+  .Report tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .CalcFunctions {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .CalcFunctions table {
+    width: 100%;
+    border: 2px solid #150202;
+  }
+  
+  
+  .CalcFunctions td {
+    border: 2px solid #150202;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .CalcFunctions th {
+    background-color: #f2f2f2;
+  }
+  
+  .CalcFunctions tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+   
+  .CalcFunctions button {
+    width: 90%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #aad7ff;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+  
+  }
+  
+  .CalcFunctions button:hover {
+    background-color: #51aaef;
+  }
+
+    
+ 
