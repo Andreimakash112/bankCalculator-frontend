@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react';
 import './Main.css';
 import Product from '../components/Product';
-
+import Name from '../components/Name';
 
 function Main({ setMessage, setProductData}) { 
   const[products, setProducts] = useState([])
@@ -21,10 +21,11 @@ function Main({ setMessage, setProductData}) {
 
 
   return (
+   
     <div className="Main">
   
 
-
+<Name/>
   
       {products.map((item) => <Product key={item._id} id={item._id}   ratio={item.ratio}
            condition={item.condition}nameInfo={item.nameInfo}nameCalc={item.nameCalc}

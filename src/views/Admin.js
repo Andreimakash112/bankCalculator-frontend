@@ -45,7 +45,7 @@ console.log(token)
         }
     } 
 
-    if (jwtDecode(token).login !== '0') {
+    if (token!==0) {
         return (
             <div className="Admin">
                
